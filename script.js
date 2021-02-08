@@ -13,7 +13,10 @@ function select() {
 
 function onClickDiv(idx) {
   let text = (idx === selected) ? "Impostor" : "Crewmate"
-  window.alert(text);
+  let resultDiv = document.getElementsByClassName("result")[0];
+  resultDiv.innerHTML = text;
+  resultDiv.className = "result " + text;
+  setTimeout(() => {resultDiv.innerHTML = "";}, 1000)
 }
 
 function ani(){
