@@ -7,6 +7,20 @@ h1 {
   margin-left: 400px;
 }
 
+.result {
+  margin-left: 500px;
+  color: white;
+  font-size: 28px;
+}
+
+.Impostor { 
+  color: red;
+}
+
+.Crewmate { 
+  color: white;
+}
+
 .btn {
     margin-left: 500px;
     width: 100px;
