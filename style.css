@@ -11,6 +11,7 @@ h1 {
   margin-left: 500px;
   color: white;
   font-size: 28px;
+  min-height: 34px;
 }
 
 .Impostor { 
@@ -19,6 +20,10 @@ h1 {
 
 .Crewmate { 
   color: white;
+}
+
+.checks {
+  font-size: 18px;
 }
 
 .btn {
